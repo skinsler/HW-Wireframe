@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
   
 
@@ -8,13 +10,22 @@ body {
 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
+
+    font-size: 18px;
+    overflow: hidden;
+}
+
+#container {
     background-color: #777;
     width: 960px;
-    font-size: 18px;
+
 }
 
 header {
     background-color: #ebebeb;
+    height: 40px;
+    width: 80%;
+    margin: 10px 50px 10px 50px;
 }
 
 nav {
